@@ -1,3 +1,9 @@
+umts-tools (0.9.4-1.1) unstable; urgency=low
+
+  * Update from upstream 0.9.4-pre to 0.9.4
+
+ -- Andrew Basterfield <andrew@dialogue.co.uk>  Wed, 07 Aug 2013 10:31:37 +0100
+
 umts-tools (0.9.4-1) unstable; urgency=low
 
   * New upstream release.

@@ -24,7 +24,7 @@ use strict;
 use warnings;
 use vars  qw(@ISA @EXPORT @EXPORT_OK $VERSION);
 
-$VERSION = "0.9.4pre1";
+$VERSION = "0.9.4";
 @ISA = qw(Exporter);
 @EXPORT = qw(CR CTRL_Z RET_OK RET_ERR TRUE FALSE);
 @EXPORT_OK = qw(read_binary);

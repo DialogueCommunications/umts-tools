@@ -9,8 +9,10 @@
 
 <body style="background-color: white">
 
-<p><a name="__index__"></a></p>
+
 <!-- INDEX BEGIN -->
+<div name="index">
+<p><a name="__index__"></a></p>
 
 <ul>
 
@@ -20,9 +22,11 @@
 	<li><a href="#call_monitoring_mechanics">CALL MONITORING MECHANICS</a></li>
 	<li><a href="#options">OPTIONS</a></li>
 </ul>
+
+<hr name="index" />
+</div>
 <!-- INDEX END -->
 
-<hr />
 <p>
 </p>
 <h1><a name="name">NAME</a></h1>
@@ -52,14 +56,13 @@ drops and producing the statistics of the run.</p>
 <h1><a name="call_monitoring_mechanics">CALL MONITORING MECHANICS</a></h1>
 <p>A call can be broken down into the following steps:</p>
 <dl>
-<dt><strong><a name="item_dial_call"><strong>dial call</strong></a></strong>
+<dt><strong><a name="dial_call" class="item"><strong>dial call</strong></a></strong></dt>
 
 <dd>
 <p>Issue the ATDxxxx; to dial an number and examine the reply of the
 ATD command, OK means success, anything else is a call setup failure.</p>
 </dd>
-</li>
-<dt><strong><a name="item_check_call_setup"><strong>check call setup</strong></a></strong>
+<dt><strong><a name="check_call_setup" class="item"><strong>check call setup</strong></a></strong></dt>
 
 <dd>
 <p>The terminal is periodically polled by looking either at the list of
@@ -69,8 +72,7 @@ have an active call, in which case we have a successful call setup,
 or we have no active calls in which case we have a call setup
 failure.</p>
 </dd>
-</li>
-<dt><strong><a name="item_monitor_call"><strong>monitor call</strong></a></strong>
+<dt><strong><a name="monitor_call" class="item"><strong>monitor call</strong></a></strong></dt>
 
 <dd>
 <p>The terminal is periodically polled by looking either at the list of
@@ -79,13 +81,11 @@ specified call duration and we check we still have an active call. If
 this is not the case, we have a dropped call and we sleep until the
 end of the expected call time.</p>
 </dd>
-</li>
-<dt><strong><a name="item_hangup_call"><strong>hangup call</strong></a></strong>
+<dt><strong><a name="hangup_call" class="item"><strong>hangup call</strong></a></strong></dt>
 
 <dd>
 <p>Issue the ATH command to hangup the terminal.</p>
 </dd>
-</li>
 </dl>
 <p>
 </p>
