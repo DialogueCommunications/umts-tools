@@ -7,7 +7,7 @@ Standards-Version: 3.7.2
 
 Package: umts-tools
 Architecture: all
-Depends: perl-modules, libdevice-serialport-perl, libdigest-hmac-perl, libconfig-general-perl, libwww-perl, libcrypt-rijndael-perl, libxml-simple-perl, libfile-type-perl, libhtml-tree-perl
+Depends: perl-modules, libdevice-serialport-perl, libdigest-hmac-perl, libconfig-general-perl, libwww-perl, libcrypt-rijndael-perl, libxml-simple-perl, libfile-type-perl, libhtml-tree-perl, libwbxml2-utils
 Recommends: libwbxml2-utils, libgtk2-perl
 Description: Tools for manipulating UMTS and GSM terminals
  A set of tools that allow you to manipulate UMTS and GSM terminals
